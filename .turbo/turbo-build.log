@@ -1,0 +1,150 @@
+
+> web@0.1.0 build
+> next build
+
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Environments: .env
+
+[?25l [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m..[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m...[39m[2K[1G [37m[1m [22m[39m Creating an optimized production build  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Creating an optimized production build     [32m[1m✓[22m[39m Creating an optimized production build 
+ [32m[1m✓[22m[39m Compiled successfully
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[?25h
+[36m./src/app/(account)/(account-setup)/forgot-password/_components/NewPassForm.tsx[39m
+[33m42[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'params.token'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/reset-password/_components/NewPassForm.tsx[39m
+[33m41[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'params.token'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/reset-password/_components/VerifyCurrentPassForm.tsx[39m
+[33m39[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'params.token'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/verify/admin/[token]/page.tsx[39m
+[33m46[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'params.token'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m62[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'activeToken' and 'decodedToken?.id'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/verify/admin/_components/SetupAdminAccountForm.tsx[39m
+[33m55[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'params.token' and 'router'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/verify/user/[token]/page.tsx[39m
+[33m44[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'params.token'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m60[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'activeToken' and 'decodedToken?.id'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/(account-setup)/verify/user/_components/SetupUserAccountForm.tsx[39m
+[33m55[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'params.token' and 'router'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(account)/auth/_components/AuthCard.tsx[39m
+[33m66[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'registerUserFromProvider'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(dashboard)/admins/admins/_components/columns.tsx[39m
+[33m78[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWarehouseByAdmin'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(dashboard)/admins/edit-profile/_components/EditAdmin.tsx[39m
+[33m128[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWarehouseByAdmin'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(dashboard)/admins/users/[id]/_components/columns.tsx[39m
+[33m32[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWarehouse'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(dashboard)/admins/warehouses/_components/DialogWarehouse.tsx[39m
+[33m115[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'fetchAssignedAdmin' and 'warehouseData'. Either include them or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m119[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'warehouseData'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m132[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'warehouseData'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(dashboard)/admins/warehouses/_components/columns.tsx[39m
+[33m62[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'adminID'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/(products)/products/_components/menu.tsx[39m
+[33m66[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'sizeOrder'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m127[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getTotalLikes'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m131[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWishlist'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/(user-dashboard)/user/manage-address/_components/UserAddressBlock.tsx[39m
+[33m27[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getUserAddressList'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/(user-dashboard)/user/wishlist/_components.tsx/WishlistBlock.tsx[39m
+[33m29[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWishlistItems'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/(user-dashboard)/user/wishlist/_components.tsx/WishlistItem.tsx[39m
+[33m51[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWishlist'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/_components/HeroCarousel.tsx[39m
+[33m16[39m:[33m11[39m  [33m[1mWarning[22m[39m: The 'videos' array makes the dependencies of useEffect Hook (at line 64) change on every render. To fix this, wrap the initialization of 'videos' in its own useMemo() Hook.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/checkout/[id]/page.tsx[39m
+[33m89[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getCart'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/app/(home)/order/[id]/page.tsx[39m
+[33m45[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useCallback has an unnecessary dependency: 'router'. Either exclude it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/components/Header.tsx[39m
+[33m114[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'getWishlistItems'. Either include it or remove the dependency array.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/components/Map.tsx[39m
+[33m196[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'API_KEY', 'setCurrentAddress', 'setCurrentCity', 'setCurrentNeighbor', 'setCurrentProvince', 'setCurrentRoad', 'setCurrentSubDistrict', 'setCurrentWard', and 'setLngLat'. Either include them or remove the dependency array. If 'setCurrentCity' changes too often, find the parent component that defines it and wrap that definition in useCallback.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36m./src/components/order/AddressInput.tsx[39m
+[33m77[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'getEditingProvince', 'setSelectedProvince', and 'warehouseData'. Either include them or remove the dependency array. If 'setSelectedProvince' changes too often, find the parent component that defines it and wrap that definition in useCallback.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m86[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'provinces' and 'setSelectedProvince'. Either include them or remove the dependency array. If 'setSelectedProvince' changes too often, find the parent component that defines it and wrap that definition in useCallback.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m90[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'fetchCities'. Either include it or remove the dependency array. If 'fetchCities' changes too often, find the parent component that defines it and wrap that definition in useCallback.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m94[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has a missing dependency: 'defaultCity'. Either include it or remove the dependency array. If 'setCurrentCity' needs the current value of 'defaultCity', you can also switch to useReducer instead of useState and read 'defaultCity' in the reducer.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+[33m109[39m:[33m8[39m  [33m[1mWarning[22m[39m: React Hook useEffect has missing dependencies: 'currentAddress', 'currentCity', 'currentNeighbor?.text', 'currentRoad?.text', 'currentSubDistrict.text', 'currentWard?.text', 'getEditingCity', 'id', 'setAddress', and 'setSelectedCity'. Either include them or remove the dependency array. If 'setSelectedCity' changes too often, find the parent component that defines it and wrap that definition in useCallback.  [90m[1mreact-hooks/exhaustive-deps[22m[39m
+
+[36minfo[39m  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/24)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/24)  [36m[=   ][39m ⚠ Entire page /auth deopted into client-side rendering. https://nextjs.org/docs/messages/deopted-into-client-rendering /auth
+[2K[1G [37m[1m [22m[39m Generating static pages (0/24)  [36m[==  ][39m  [37m[1m [22m[39m Generating static pages (11/24) 
+[2K[1G[1A[2K[1G [37m[1m [22m[39m Generating static pages (0/24)  [36m[=== ][39m  [37m[1m [22m[39m Generating static pages (11/24) 
+ ⚠ Entire page /catalogs deopted into client-side rendering. https://nextjs.org/docs/messages/deopted-into-client-rendering /catalogs
+ ⚠ Entire page /user/transaction deopted into client-side rendering. https://nextjs.org/docs/messages/deopted-into-client-rendering /user/transaction
+[2K[1G[1A[2K[1G [37m[1m [22m[39m Generating static pages (0/24)  [36m[ ===][39m  [37m[1m [22m[39m Generating static pages (20/24) 
+[2K[1G[1A[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (24/24) 
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
+
+[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+┌ ○ /                                    8.44 kB         [31m[1m469 kB[22m[39m
+├ ○ /_not-found                          881 B          [32m83.1 kB[39m
+├ λ /admins/admins                       5.45 kB         [31m[1m536 kB[22m[39m
+├ λ /admins/admins/[id]                  4.84 kB         [31m[1m492 kB[22m[39m
+├ λ /admins/change-password              934 B           [31m[1m533 kB[22m[39m
+├ λ /admins/edit-profile                 2.38 kB         [31m[1m584 kB[22m[39m
+├ λ /admins/overview                     171 B          [32m82.4 kB[39m
+├ λ /admins/products                     14.6 kB         [31m[1m603 kB[22m[39m
+├ λ /admins/sales                        4.99 kB         [31m[1m505 kB[22m[39m
+├ λ /admins/sales/[slug]                 3.4 kB          [31m[1m503 kB[22m[39m
+├ λ /admins/stocks                       5.62 kB         [31m[1m529 kB[22m[39m
+├ λ /admins/stocks/[slug]                3.86 kB         [31m[1m504 kB[22m[39m
+├ λ /admins/stocks/mutations             9.87 kB         [31m[1m502 kB[22m[39m
+├ λ /admins/transactions                 2.41 kB         [31m[1m503 kB[22m[39m
+├ λ /admins/users                        4.44 kB         [31m[1m495 kB[22m[39m
+├ λ /admins/users/[id]                   4.22 kB         [31m[1m503 kB[22m[39m
+├ λ /admins/warehouses                   4.51 kB         [31m[1m865 kB[22m[39m
+├ ○ /auth                                8.93 kB         [31m[1m543 kB[22m[39m
+├ ○ /catalogs                            2 kB            [31m[1m480 kB[22m[39m
+├ λ /checkout/[id]                       6.9 kB          [31m[1m840 kB[22m[39m
+├ λ /forgot-password/admin/[token]       1.54 kB         [31m[1m479 kB[22m[39m
+├ λ /forgot-password/user/[token]        1.54 kB         [31m[1m479 kB[22m[39m
+├ ○ /green-project                       191 B          [32m94.1 kB[39m
+├ ○ /icon.ico                            0 B                [32m0 B[39m
+├ λ /order/[id]                          4.75 kB         [31m[1m429 kB[22m[39m
+├ λ /products/[slug]                     8.52 kB         [31m[1m491 kB[22m[39m
+├ λ /reset-password/user/[token]         6.89 kB         [31m[1m479 kB[22m[39m
+├ λ /user/change-password                1.53 kB         [31m[1m450 kB[22m[39m
+├ λ /user/edit-profile                   2.43 kB         [31m[1m516 kB[22m[39m
+├ λ /user/manage-address                 7 kB            [31m[1m823 kB[22m[39m
+├ λ /user/transaction                    2.81 kB         [31m[1m488 kB[22m[39m
+├ λ /user/wishlist                       4.57 kB         [31m[1m450 kB[22m[39m
+├ λ /verify/admin/[token]                3.14 kB         [31m[1m517 kB[22m[39m
+└ λ /verify/user/[token]                 3.01 kB         [31m[1m517 kB[22m[39m
++ First Load JS shared by all            [32m82.2 kB[39m
+  ├ chunks/1dd3208c-c6c349df3376d1cf.js  53.3 kB
+  ├ chunks/4016-227039bed630b222.js      26.8 kB
+  ├ chunks/main-app-795b355057688de6.js  228 B
+  └ chunks/webpack-66e18d45a0fa9bf1.js   1.86 kB
+
+
+ƒ Middleware                             [31m[1m469 kB[22m[39m
+
+○  (Static)   prerendered as static content
+λ  (Dynamic)  server-rendered on demand using Node.js
+
+[?25h
